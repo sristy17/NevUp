@@ -1,9 +1,36 @@
 # NevUp – Trading Behavior Analytics Platform
 
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![FastAPI](https://img.shields.io/badge/FastAPI-Backend-green)
+![NextJs](https://img.shields.io/badge/NextJs-Frontend-blue)
+![TypeScript](https://img.shields.io/badge/TypeScript-TSX-informational)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
+
 ## Overview
 NevUp is a full-stack application designed to analyze trading behavior rather than just financial outcomes. Instead of focusing only on profit and loss, it evaluates how decisions are made during trading and highlights behavioral patterns that influence performance.
 
 The platform processes trade data in real time and generates insights around discipline, emotional influence, and decision consistency.
+
+---
+
+## Tech Stack
+
+
+
+### Backend
+- FastAPI  
+- SQLAlchemy  
+- Python  
+
+### Database
+- PostgreSQL  
+
+### Frontend
+- Next.js (TypeScript)  
+
+### Infrastructure
+- Docker  
+- Docker Compose  
 
 ---
 
@@ -61,28 +88,27 @@ Flags unusually high trading frequency within short time intervals, which may in
 
 ## System Design
 
-NevUp is structured as a simple but effective pipeline:
+NevUp follows a streamlined architecture:
 
-- The frontend provides an interface to submit trades and view insights.
-- The backend handles API requests, authentication, and business logic.
-- The database stores all trade data.
-- Background processing computes behavioral metrics without blocking API responses.
+- The frontend provides an interface to submit trades and view insights  
+- The backend handles API requests, authentication, and logic  
+- The database stores trade data  
+- Background processing computes behavioral metrics asynchronously  
 
-This design ensures fast responses while still performing deeper analysis in the background.
+This ensures fast responses while still performing deeper analysis in the background.
 
 ---
 
 ## User Experience
 
 The dashboard presents:
-- Key metrics in a clear, structured format
-- Emotion-based performance breakdown
-- Session-level behavioral insights
-- Indicators for risky trading patterns
+- Key metrics in a structured format  
+- Emotion-based performance breakdown  
+- Session-level behavioral insights  
+- Indicators for risky trading patterns  
 
-Users can simulate multiple trades with a single action and observe how their behavioral metrics evolve in real time.
-
----
+Users can simulate multiple trades and observe how behavioral metrics evolve in real time.
 
 ---
 
+rovides a deeper understanding of performance and helps identify patterns that would otherwise go unnoticed.
