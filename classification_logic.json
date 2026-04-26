@@ -1,0 +1,19 @@
+{
+  "model_type": "rule_based_behavioral_engine",
+  "metrics": {
+    "revenge_trade_detection": {
+      "definition": "trade within 90 seconds after a loss with anxious/fearful state",
+      "precision": "deterministic",
+      "recall": "deterministic"
+    },
+    "overtrading_detection": {
+      "definition": "more than 10 trades within 30 minutes",
+      "precision": "deterministic",
+      "recall": "deterministic"
+    },
+    "session_tilt": {
+      "definition": "ratio of trades taken after losses in a session"
+    }
+  },
+  "note": "System uses deterministic rule-based classification instead of ML model"
+}
