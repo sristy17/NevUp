@@ -111,4 +111,3 @@ Users can simulate multiple trades and observe how behavioral metrics evolve in 
 
 ---
 
-rovides a deeper understanding of performance and helps identify patterns that would otherwise go unnoticed.
